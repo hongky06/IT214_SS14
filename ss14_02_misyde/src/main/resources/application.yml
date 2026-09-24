@@ -1,0 +1,12 @@
+spring.application.name=ss14_02
+  
+  # Tự động cập nhật bảng trong Database
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+  
+  # Kết nối MySQL (thay mật khẩu phù hợp với máy của bạn)
+spring.datasource.url=jdbc:mysql://localhost:3306/ss14_02_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
